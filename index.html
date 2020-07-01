@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+        <title>Vladimir Polonsky</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="js/galleria-1.5.7.min.js"></script>
+    </head>
+    <body>
+	
+		<div class="background">
+			<div class="nav">
+				<a class="a active" href="#">HOME</a>
+				<a class="b" href="#">ABOUT ME</a>
+				<a class="c" href="#">SKILLS</a>
+				<a class="d" href="#">GALLERY</a>
+				<a class="e" href="#">CONTACTS</a>
+			</div>
+			
+				<div class="content">
+					
+					<div class="home">
+						
+						<div class='avatar'>
+								<img src="images/pol1.jpg">
+						</div>
+					 
+						<h1>I am Vladimir Polonsky</h1>
+						<h3>Web Designer</h3>
+							
+					</div>
+					
+					
+					
+					<div class="aboutus">
+						<p><b>Hi!</b><br>
+							My name is Vladimir Polonsky and I'm from Kiev, Ukraine.
+							29 years ago I was born here in Kiev city and still living here.
+							Can't tell you something special about myself, just a simple guy 
+							with different interests and hobbies. In 2006 finished 
+							Gymnasium №172 "Nyvky" with advanced learning of English. 
+							The next step was Kiev Polytechnic Institute,faculty of acoustics.
+							But it was really uncomfortable to me to study there, 
+							so I left it after half a year. Not my cup of tea. Next year I've entered 
+							to the Kiev National University of Culture and Arts. Now I have 
+							a specialist degree as a "sound engineer" and remembering my university times 
+							with a smile. It was really great and happy time. Also, finished a web 
+							design courses and couple online at Codeacademy website. And now
+							just living my life, trying to get better every day, reading, learning,
+							sport activities, bicycle riding, music making e.t.c.
+						</p>
+					</div>
+					
+						<div class="skills">
+								<h4>web:</h4>
+							<ul>
+								<li>Html</li>
+								<li>Css</li>
+								<li>Flash</li>
+								<li>Jquery</li>
+								<li>Adobe Photoshop</li>
+							</ul>
+							
+						<h4>audio:</h4>
+							<ul>
+								<li>Cubase</li>
+								<li>Ableton Live</li>
+								<li>Sound Forge</li>
+								<li>Studio One</li>
+								<li>Logic</li>
+							</ul>
+							
+						<h4>video:</h4>
+							<ul>
+								<li>Sony Vegas</li>
+								<li>Adobe Premiere</li>
+								<li>Adobe After Effects</li>
+							</ul>
+							
+						<div class="skillsimg">
+							<img src="images/skillz2.png">
+						</div>	
+						
+					</div>
+					
+					
+					<div class="galleria">
+					<table id="gal" cols="3" cellspacing="5" cellpadding="0">
+					<tr>
+						
+						
+						<td><a href="images/boutique.jpg" target="_blank"><img src="images/boutiquesmall.jpg" title="Boutique"></a></td>
+						
+						<td><a href="images/clearmodern.jpg" target="_blank"><img src="images/clearmodernsml.jpg" title="Clear Modern"></a></td>
+						<td><a href="images/comanche.jpg" target="_blank"><img src="images/comanchesml.jpg" title="Comanche Bikes"></a></td>
+					</tr>
+					
+					<tr>
+						<td><a href="images/restaurant.jpg" target="_blank"><img src="images/restaurantsml.jpg" title="Restaurant"></a></td>
+						<td><a href="images/studio.jpg" target="_blank"><img src="images/studiosml.jpg" title="Recording Studio"></a></td>
+						<td><a href="images/ba.jpg" target="_blank"><img src="images/basml.jpg" title="Granny"></a></td>
+					</tr>
+					
+					<tr>
+						<td><a href="images/htc.jpg" target="_blank"><img src="images/htcsml.jpg" title="HTC"></a></td>
+						<td><a href="images/adv1.jpg" target="_blank"><img src="images/advsml.jpg" title="Banner"></a></td>
+						<td><a href="images/ipad.jpg" target="_blank"><img src="images/ipadsml.jpg" title="Banner 2"></a></td>
+					</tr>
+					
+					<tr>
+						<td><a href="images/redblack.jpg" target="_blank"><img src="images/redblacksml.jpg" title="HTC"></a></td>
+	
+					</tr>
+					
+					</table>
+					</div>
+					
+					
+					<div class="contactus">
+						<div class="mob">
+						<h2>For contacts:</h2>
+						<h3><i>E-mail:</i>&nbsp; polonskiv@i.ua</h3>
+						<h3><i>Phone:</i>&nbsp; 097-939-56-46</h3>
+						</div>
+						<div class="contactform">
+							<form name="contactform" action="feedback.php" method="post" onsubmit="return checkForm(this)">
+								<table width="450px">
+									<tr>
+										<td>
+											<label for="name">Your name:</label>
+										</td>
+										<td>
+											<div class="input">
+												<input type="text" class="inputtext" name="name" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<label for="email">Your E-mail:</label>
+										</td>
+										<td>
+											<div class="input">
+												<input type="text" class="inputtext" name="email" />
+											</div>
+										</td>
+									</tr>		
+								
+									<tr>
+										<td colspan="2">
+											<label for="comment">Message text:</label>
+										</td>
+									</tr>
+								
+									<tr>
+										<td colspan="2">
+											<div class="textarea">
+												<textarea name="message" class="inputmessage" cols="40" rows="10"></textarea>
+											</div>
+										</td>
+									</tr>
+								
+							
+									<tr>
+										<td colspan="2" style="text-align:center">
+											<input type="submit" name="feedback" value="SEND" class="submitbutton">
+										</td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			
+		</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+		$("a").click(function(){
+			//alert("i am click");
+			var selected = $(this);
+			$("a").removeClass("active");
+		});
+		
+		var 
+		$a = $(".a"),
+		$b = $(".b"),
+		$c = $(".c"),
+		$d = $(".d"),
+		$e = $(".e"),
+		$home = $(".home"),
+		$aboutus = $(".aboutus"),
+		$skills = $(".skills")
+		$galleria = $(".galleria"),
+		$contactus = $(".contactus");
+		
+		
+		$a.click(function(){
+			$home.fadeIn();
+			$aboutus.fadeOut();
+			$skills.fadeOut();
+			$galleria.fadeOut();
+			$contactus.fadeOut();
+		});
+		$b.click(function(){
+			$aboutus.fadeIn();
+			$home.fadeOut();
+			$skills.fadeOut();
+			$galleria.fadeOut();
+			$contactus.fadeOut();
+		});
+		$c.click(function(){
+			$skills.fadeIn();
+			$aboutus.fadeOut();
+			$home.fadeOut();
+			$galleria.fadeOut();
+			$contactus.fadeOut();
+		});
+		$d.click(function(){
+			$galleria.fadeIn();
+			$skills.fadeOut();
+			$home.fadeOut();
+			$aboutus.fadeOut();
+			$contactus.fadeOut();
+		});
+		$e.click(function(){
+			$contactus.fadeIn();
+			$home.fadeOut();
+			$skills.fadeOut();
+			$galleria.fadeOut();
+			$aboutus.fadeOut();
+		});
+	  });
+	  
+
+	  </script>
+	  <script>
+	(function() { 
+            Galleria.loadTheme('js/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+			
+			Galleria.configure({
+			debug: false // debug is now off for deployment
+			});
+			
+			Galleria.configure({
+			wait: true });
+        }());
+        </script>
+		
+	  
+    </body>
+</html>
